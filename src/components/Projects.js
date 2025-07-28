@@ -36,7 +36,7 @@ function Projects() {
       technologies: ["React", "CSS3", "JavaScript", "HTML5"],
       image: "/images/profolio.png",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Oyuga-Newrich/react-website"
     }
   ];
 
