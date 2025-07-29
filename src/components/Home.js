@@ -300,6 +300,34 @@ function Home() {
             >
               Get In Touch
             </a>
+            <a 
+              href="/Newrich Oyuga CV 2025.pdf" 
+              download
+              style={{ 
+                background: 'transparent', 
+                color: '#ffd700', 
+                padding: '11px 28px', 
+                borderRadius: '25px', 
+                textDecoration: 'none', 
+                fontWeight: '600',
+                border: '2px solid #ffd700',
+                transition: 'all 0.3s ease',
+                fontSize: '0.95rem',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px'
+              }}
+              onMouseOver={(e) => {
+                e.target.style.background = '#ffd700';
+                e.target.style.color = '#222';
+              }}
+              onMouseOut={(e) => {
+                e.target.style.background = 'transparent';
+                e.target.style.color = '#ffd700';
+              }}
+            >
+              📄 Download CV
+            </a>
           </div>
         </div>
       </div>

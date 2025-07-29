@@ -31,7 +31,7 @@ function Navbar() {
         >
           Wanwan
         </a>
-        <div className='navbar-links' style={{ display: 'flex', gap: '32px' }}>
+        <div className='navbar-links' style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
           <a 
             href="#home" 
             style={{ 
@@ -100,6 +100,34 @@ function Navbar() {
             }}
           >
             Contact
+          </a>
+          <a 
+            href="/Newrich Oyuga CV 2025.pdf" 
+            download
+            style={{ 
+              background: '#ffd700', 
+              color: '#222', 
+              padding: '8px 16px', 
+              borderRadius: '20px', 
+              textDecoration: 'none',
+              fontWeight: '600',
+              transition: 'all 0.3s ease',
+              fontSize: '0.9rem',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              border: '2px solid #ffd700'
+            }}
+            onMouseOver={(e) => {
+              e.target.style.background = 'transparent';
+              e.target.style.color = '#ffd700';
+            }}
+            onMouseOut={(e) => {
+              e.target.style.background = '#ffd700';
+              e.target.style.color = '#222';
+            }}
+          >
+            📄 CV
           </a>
         </div>
       </div>
